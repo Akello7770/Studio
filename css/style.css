@@ -1,0 +1,479 @@
+@import 'fonts.css';
+@import 'all.min.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat-Medium';
+}
+
+/* -----------------HEADER-------------------------- */
+header .header {
+    background: url(../img/header.jpg) no-repeat center center /cover;
+    height: 100vh;
+}
+
+header .nav {
+    padding-top: 15px;
+}
+
+header ul a {
+    margin-left: 30px;
+    color: #191919;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+header ul a:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+
+header .intro h1 {
+    font-size: 36px;
+    color: #1d1d1d;
+}
+
+header .intro p {
+    font-size: 15px;
+    color: #787878;
+    line-height: 24px;
+}
+
+.buttom_logoa {
+    padding: 22px 57px;
+    background: #007d2f;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.buttom_logoa:hover {
+    padding: 22px 57px;
+    background: #007d2f;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .li-nav {
+    flex-wrap: wrap;
+}
+
+header .nav {
+    margin-bottom: 15%;
+}
+
+/* --------------------MAIN---------------------------- */
+
+
+main .about_us {
+    padding: 100px 0 40px 0;
+}
+
+main .about_us h2 {
+    font-size: 35px;
+    color: #191919;
+    margin-bottom: 45px;
+}
+
+main .about_us p {
+    font-family: 'NunitoSans-Regular';
+    font-size: 14px;
+    color: #787878;
+    line-height: 21px;
+    width: 50%;
+}
+
+main .about_us img {
+    margin-top: 50px;
+}
+
+main .progress-bar {
+    height: 3px;
+}
+
+main .profesional_skills h3 {
+    font-size: 30px;
+}
+
+main .profesional_skills p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+main .profesional_skills {
+    background: #f8f9f9;
+    height: 570px;
+    position: relative;
+}
+
+main .profesional_skills .image {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+main .profesional_skills_img {
+    position: absolute;
+    right: 100px;
+}
+
+main .statistics {
+    background: #007d2f;
+    padding: 77px 0;
+}
+
+main .statistics p {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+main .statistics .numbers {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.statistics i {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.img_main_pictures {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.img_main_pictures img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.img_main_pictures i {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    bottom: 0;
+    opacity: 0;
+    transition: 700ms;
+}
+
+.img_main_pictures i:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.40);
+}
+
+main .load_more_work {
+    background: #007d2f;
+    padding: 45px 0 40px 0;
+}
+
+main .load_more_work a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    font-family: 'NunitoSans-Regular';
+}
+
+main .load_more_work .load_more_work_a:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+main .our_work_process {
+    padding: 100px 0;
+}
+
+main .our_work_process h4 {
+    font-size: 43px;
+    text-align: center;
+}
+
+main .our_work_process p {
+    width: 51%;
+    margin: 43px auto;
+    text-align: center;
+    color: #787878;
+    line-height: 32px;
+}
+
+main .product_sphere {
+    background: #f5f5f5;
+    padding: 110px 0 50px 0;
+}
+
+main .product_sphere i {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+main .product_sphere h5 {
+    font-size: 12px;
+    color: #191919;
+    margin-bottom: 20px;
+}
+
+main .product_sphere p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+    font-family: 'NunitoSans-Regular';
+}
+
+main .slide {
+    background: #007d2f;
+    height: 500px;
+}
+
+main .slide .carousel-item p {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+main .slide .carousel-item .carousel-item-p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+main .bottom_logo {
+    height: 200px;
+    padding: 60px 0;
+}
+
+main .need_a_project {
+    padding: 30px 0 100px 0;
+    background: #f5f5f5;
+}
+
+main .need_a_project h6 {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .need_a_project p {
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+    font-family: 'NunitoSans-Regular';
+    text-align: center;
+    width: 540px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+main .need_a_project_regis {
+    margin: auto;
+
+}
+
+main .need_a_project_regis .d-flex input {
+    width: 48%;
+    color: #787878;
+    font-size: 15px;
+    font-family: 'NunitoSans-Regular';
+    display: block;
+    padding: 15px;
+}
+
+main .need_a_project_regis input {
+    margin-top: 30px;
+    color: #787878;
+    font-size: 15px;
+    font-family: 'NunitoSans-Regular';
+    padding: 15px;
+    width: 100%;
+}
+
+main .need_a_project_regis textarea {
+    height: 140px;
+    resize: none;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: 'NunitoSans-Regular';
+}
+
+main .buttom_logo {
+    padding: 22px 57px;
+    background: #007d2f;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* --------------FOOTER------------------- */
+footer {
+    background: #141414;
+    padding: 100px 0;
+}
+
+footer .footer_desc_first:first-child {
+    font-size: 18px;
+    color: white;
+}
+
+footer .footer_p {
+    font-size: 15px;
+    color: #bcbcbc;
+    line-height: 24px;
+    width: 285px;
+    text-decoration: none;
+
+}
+
+footer .footer_p {
+    font-size: 15px;
+    color: #bcbcbc;
+    line-height: 24px;
+    width: 285px;
+    text-decoration: none;
+}
+
+footer .footer_desc_third {
+    width: 250px;
+}
+
+/* --------------HOME-header--------------------- */
+header .header_home {
+    height: 100px;
+}
+
+header .graphic_designer {
+    background: #007d2f;
+    width: 100%;
+    padding: 100px 0;
+}
+
+header .graphic_designer p {
+    font-family: 'Roboto-Medium';
+    color: white;
+    line-height: 27px;
+    font-size: 17px;
+}
+
+header .graphic_designer h1 {
+    font-size: 30px;
+}
+
+/* -------------ABOUT-header---------------- */
+header .amelia_woods {
+    background: #323232;
+    width: 100%;
+    padding: 100px 0;
+}
+
+header .amelia_woods h1 {
+    font-size: 62px;
+    color: white;
+}
+
+header .amelia_woods p {
+    font-family: 'NunitoSans-Regular';
+    font-size: 22px;
+    line-height: 35px;
+    color: white;
+}
+
+main .about_about_me {
+    height: 570px;
+    background: #f5f5f5;
+    position: relative;
+}
+
+main .about_about_me .about_me_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+main .about_about_me_desc {
+    position: absolute;
+    left: 55%;
+    padding: 100px 0 0 0;
+    box-sizing: border-box;
+}
+
+main .about_about_me_desc h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+main .about_about_me_desc p {
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+main .need_a_project_about{
+    padding: 100px 0;
+    background: white;
+}
+
+main .need_a_project_about h6 {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .need_a_project_about p {
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+    font-family: 'NunitoSans-Regular';
+    text-align: center;
+    width: 540px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.buttom_logoa_about {
+    padding: 22px 57px;
+    background: #007d2f;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.buttom_logoa_about:hover {
+    padding: 22px 57px;
+    background: #007d2f;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
